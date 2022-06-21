@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.8px;
+}
+body{
+    background-color: #eef3fe;
+}
+.nav{
+    position: relative;
+    margin-top:1.5rem
+}
+
+h4{
+    text-align:center ;
+    margin-top: 2rem;
+}
+
+p{
+    margin:0
+}
+
+.second-p{
+
+    text-align:center ;
+    margin-bottom: 2.5rem;
+
+}
+
+.third-p{
+    max-width: 40%;
+    margin-bottom: 2.5rem;
+
+}
+
+.nav>svg{
+    position: absolute;
+    left:  0;
+}
+.nav>button{
+    position: absolute;
+    right:  0;
+    max-height: 40px;
+}
+.net-status {
+    padding: 10px;
+    background: linear-gradient(to right,#0bab64,#3bb78f);
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    border: 10px;
+box-shadow: 5px 2px 14px 2px rgba(0,0,0,0.14);
+}
+.container.small{
+    max-width:650px;
+}
+.wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.horizontal-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    /*flex-direction:column; */
+    margin-top: 2rem;
+}
+
+.second{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 10px;
+
+    flex-direction:column; 
+    margin-top: 2rem;
+}
+
+.third{
+
+    margin:0 ;
+
+}
+
+
+.vertical-center label{
+    margin: 0;
+}
+
+.pay-to label{
+    align-self:start;
+    margin:1rem 0 0 0 ;
+}
+
+table{
+    margin-top:10px;width: 50%;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: right;width: 50%;
+}
+
+.second-tds{
+
+    text-align: left;   
+}
+
+input,select{
+    
+    margin: 0;
+    font-size: 1.5rem;
+    padding:10px 14px !important;
+}
+.header{
+    text-align: center;
+    border-left: 5px solid #3bb78f ;
+    margin: 3rem 0;
+    font-weight: 600;
+}
+.form-style{
+    background-color: rgb(227, 239, 239);
+    border: 1px solid rgb(222, 222, 222);
+    padding: 40px 40px;
+    border-radius: 5px;
+}
+form{
+    margin: 0;
+}
+button,.button-primary{
+    border-radius: 30px;
+}
+.sign-out{
+    margin:0 0 0 8px;
+    border-radius:4px;
+    height: 100%;
+    padding:0px 20px
+}
+
+.sign-in{
+    margin:0 0 0 8px;
+    border-radius:4px;
+    height: 100%;
+    padding:0px 20px
+}
+
+.wallet-nb {
+    padding: 12px 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(218, 243, 243);
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+}
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(186, 242, 245);
+    border-radius: 15px;
+}
+.col>strong,.cus-row>strong {
+            padding: 12px 8px;
+}
+
+.cus-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(204, 241, 212);
+    border-radius: 15px;
+    gap: 10 px;
+}
+.balance {
+    padding: 12px 8px;
+    text-align: center;
+    background-color: rgb(218, 243, 223);
+    border-radius: 15px 0px 0 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*service page css*/
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.action {
+    height: 30px;
+    width: 180px;
+    border-left: 1px solid rgb(60, 60, 60);
+    font-size: 1.8rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+
+.action:hover {
+    background-color: rgb(205, 205, 205);
+    /* color: white; */
+    color: black;
+    transform: translateY(-1px);
+}
+
+.line {
+    border-bottom: 1px solid rgb(229, 229, 229);
+    width: 50%;
+    display: block;
+}
+
+/*exchange page css*/
+
+.pay-to {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.username {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+td {
+    border-bottom: none;
+}
+
+
+
+
+/*BBTC page css*/
+
+.acc-address {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    background-color: rgb(179, 214, 232);
+    border-radius: 5px;
+    border: 1px solid rgb(145, 205, 225);
+    margin-bottom: 2.5rem;
+
+}
+@media (max-width:700px){
+    .acc-address {
+        font-size: 1.5rem;
+    }
+}
+.second-table td{
+border-bottom: none;
+text-align: center;
+}
+
+.second-table th{
+text-align: center;
+}
+
+.second-table{
+min-width: 40%;
+}
+
+.exchange-div{
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+.exchange-div strong{
+    font-size: 18px;
+}
+.exchange-p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 2em;
+}
