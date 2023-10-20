@@ -20,7 +20,7 @@ module.exports = {
   solidity: "0.8.4",
   "networks":{
       "test":{
-         "url":"https://eth-rinkeby.alchemyapi.io/v2/38M5j3ponQON1zC9wDbfEetSLuFBHeWw",
+         "url":"https://eth-rinkeby.alchemyapi.io/v2/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
          "accounts":[
             "0x0000000000000000000000000000000000000000000000000000000000000000000"
          ]
